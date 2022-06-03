@@ -1,0 +1,52 @@
+body {
+    background:black;
+    font-family: 'Koulen', cursive;
+}
+.img-logo{
+    width: 80px;
+    margin: 14px 0 0 22px;
+    background: rgb(139, 228, 7);
+}
+.img-logo:hover{
+    background: rgb(251, 252, 251);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color:  rgb(139, 228, 7);
+}
+
+.letras{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+.letras button {
+    width: 60px;
+    height: 30px;
+}
+
+.letras button:hover{
+    background: rgb(139, 228, 7);
+    
+} 
+.btnStart{
+    display: flex;
+    justify-content: center;
+
+}
+#startButton {
+    background: transparent;
+    color: rgb(139, 228, 7);
+    width: 190px;
+    height: 80px;
+    border-radius: 6px;
+    border-color: rgb(139, 228, 7);
+}
+
+#startButton:hover{
+    background: rgb(139, 228, 7);
+    color:  black ;
+    font-weight: bolder;
+} 

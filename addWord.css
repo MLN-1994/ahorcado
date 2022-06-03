@@ -1,0 +1,15 @@
+body {
+    background:black;
+    font-family: 'Koulen', cursive;
+}
+.img-logo{
+    width: 80px;
+    margin: 14px 0 0 22px;
+    background: #8be407;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color:  rgb(139, 228, 7);
+}
