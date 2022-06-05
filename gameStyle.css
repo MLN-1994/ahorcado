@@ -16,24 +16,43 @@ body {
     font-size: 28px;
     color:  rgb(139, 228, 7);
 }
-
-.letras{
-    display: flex;
-    justify-content: center;
-    gap: 6px;
+.container-game{
+display: flex;
+justify-content: center;
+width: 100%;
 }
-.letras button {
-    width: 60px;
-    height: 30px;
+.horca{
+    position: relative;
 }
-
-.letras button:hover{
+.uno{
     background: rgb(139, 228, 7);
-    
-} 
+    width:200px;
+    height: 10px;
+}
+.tres{
+    background: rgb(139, 228, 7);
+    width: 150px;
+    height: 10px;
+}
+.dos{
+    background: rgb(139, 228, 7);
+    height: 200px;
+    width: 10px;
+}
+.cuatro {
+    background: rgb(139, 228, 7);
+    width: 10px; 
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
 .btnStart{
     display: flex;
     justify-content: center;
+    margin-top: 60px;
 
 }
 #startButton {
